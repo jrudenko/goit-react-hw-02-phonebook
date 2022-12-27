@@ -16,7 +16,7 @@ export const TitleH1 = styled.h1`
   font-weight: bold;
 
   &:hover {
-    text-shadow: 0 0 70px #c1bec0, 0 0 20px #74366f;
+    text-shadow: 0 0 70px #c1bec0, 0 0 20px #74366f;}
 `;
 
 export const TitleH2 = styled.h2`
@@ -25,5 +25,5 @@ export const TitleH2 = styled.h2`
   font-weight: bold;
 
   &:hover {
-    text-shadow: 0 0 70px #70074d, 0 0 20px #4f0536;
+    text-shadow: 0 0 70px #70074d, 0 0 20px #4f0536;}
 `;
