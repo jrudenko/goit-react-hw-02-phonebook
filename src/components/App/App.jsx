@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { nanoid } from "nanoid";
+import { nanoid } from 'nanoid'
 import ContactForm from 'components/ContactForm';
 import Filter from 'components/Filter';
 import ContactList from 'components/ContactList';
@@ -28,7 +28,7 @@ class App extends Component {
         }));
     };
 
-    getContact = () => {
+    getContacts = () => {
         const { filter, contacts } = this.state;
         const normalizedFind = filter.toLowerCase();
         return contacts.filter(contact => contact.name.toLowerCase().includes(normalizedFind));
